@@ -17,7 +17,7 @@ module.exports = (client) => {
 
     .setStartTimestamp("" || Date.now()) // remember to use a number WITHOUT QUOTES and an Epoch value https://www.epochconverter.com
 
-    ..setEndTimestamp(Date.now()+1672531200000)// .setEndTimestamp(Date.now()+1672531200000) to use a number WITHOUT QUOTES and an [Epoch value] (https://www.epochconverter.com)
+    .setEndTimestamp(Date.now()+1672531200000)// .setEndTimestamp(Date.now()+1672531200000) to use a number WITHOUT QUOTES and an [Epoch value] (https://www.epochconverter.com)
 
     .setSyncId("")
 
