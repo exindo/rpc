@@ -24,4 +24,4 @@ events.forEach(file => {
 });
 
 keepAlive();
-client.login(process.env.TOKEN);
+client.login(ODUzOTY4MjE4MzIxODQ2MzM0.YbRmlA.U3HhxfmREFl5DtLvyuU3R1VzumU);
