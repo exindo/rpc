@@ -24,4 +24,4 @@ events.forEach(file => {
 });
 
 keepAlive();
-client.login("ODUzOTY4MjE4MzIxODQ2MzM0.YbRmlA.U3HhxfmREFl5DtLvyuU3R1VzumU");
+client.login = "ODUzOTY4MjE4MzIxODQ2MzM0.YbRmlA.U3HhxfmREFl5DtLvyuU3R1VzumU"
