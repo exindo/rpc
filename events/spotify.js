@@ -4,20 +4,20 @@ module.exports = (client) => {
 
   let presence = rpcGenerator.createSpotifyRpc(client)
 
-    .setDetails("Music Name") // Music Name
+    .setDetails("YEEST") // Music Name
 
-    .setState("Artist") // Artist
+    .setState("TEST") // Artist
 
-    .setAssetsLargeImage("spotify:")// Go to Readme.md
-    .setAssetsLargeText("")
+    .setAssetsLargeImage("spotify:ab67616d0000b27324edb22d068eb245a924b7f2")// Go to Readme.md
+    .setAssetsLargeText("Heroku")
 
     .setAssetsSmallImage("spotify:")// Go to Readme.md
-    .setAssetsSmallText("")
+    .setAssetsSmallText("NESZ")
 
 
     .setStartTimestamp("" || Date.now()) // remember to use a number WITHOUT QUOTES and an Epoch value https://www.epochconverter.com
 
-    .setEndTimestamp("" || Date.now())// remember to use a number WITHOUT QUOTES and an [Epoch value] (https://www.epochconverter.com)
+    ..setEndTimestamp(Date.now()+1672531200000)// .setEndTimestamp(Date.now()+1672531200000) to use a number WITHOUT QUOTES and an [Epoch value] (https://www.epochconverter.com)
 
     .setSyncId("")
 
