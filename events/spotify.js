@@ -4,12 +4,12 @@ module.exports = (client) => {
 
   let presence = rpcGenerator.createSpotifyRpc(client)
 
-    .setDetails("YEEST") // Music Name
+    .setDetails("NESZ TOBAT MAKSIAT") // Music Name
 
-    .setState("TEST") // Artist
+    .setState("By: NESZ GT") // Artist
 
-    .setAssetsLargeImage("spotify:ab67616d0000b27324edb22d068eb245a924b7f2")// Go to Readme.md
-    .setAssetsLargeText("Heroku")
+    .setAssetsLargeImage("spotify:ab67616d0000b273675ef799a10e02136ca9b96f")// Go to Readme.md
+    .setAssetsLargeText("Run On Heroku")
 
     .setAssetsSmallImage("spotify:")// Go to Readme.md
     .setAssetsSmallText("NESZ")
